@@ -27,6 +27,9 @@ android {
         sourceCompatibility rootProject.ext.javaSourceCompatibility
         targetCompatibility rootProject.ext.javaTargetCompatibility
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 
